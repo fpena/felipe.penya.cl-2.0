@@ -4,4 +4,4 @@
 
 This is my personal website codebase. 
 
-For further inquiries, please email to felipe [ad] penya . cl
+For further questions or inquiries, please email to felipe [at] penya . cl
