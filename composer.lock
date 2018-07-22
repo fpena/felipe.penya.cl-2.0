@@ -4,8 +4,73 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "748fa8823bcb2b1edca278495833c29f",
     "packages": [
+        {
+            "name": "christofferok/laravel-emojione",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/christofferok/laravel-emojione.git",
+                "reference": "91a1d6b90510f6981c5d21c579124a7448cc74f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/christofferok/laravel-emojione/zipball/91a1d6b90510f6981c5d21c579124a7448cc74f6",
+                "reference": "91a1d6b90510f6981c5d21c579124a7448cc74f6",
+                "shasum": ""
+            },
+            "require": {
+                "emojione/emojione": "^3.1.0",
+                "illuminate/support": "~5.1",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "suggest": {
+                "emojione/assets": "If you want to serve the emojione assets yourself"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ChristofferOK\\LaravelEmojiOne\\LaravelEmojiOneServiceProvider"
+                    ],
+                    "aliases": {
+                        "LaravelEmojiOne": "ChristofferOK\\LaravelEmojiOne\\LaravelEmojiOneFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ChristofferOK\\LaravelEmojiOne\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": ":Christoffer Korvald",
+                    "email": "korvald@gmail.com",
+                    "homepage": "https://christofferok.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel helper for EmojiOne",
+            "homepage": "https://github.com/christofferok/LaravelEmojiOne",
+            "keywords": [
+                "ChristofferOK",
+                "LaravelEmojiOne",
+                "emoji",
+                "emojione",
+                "laravel"
+            ],
+            "time": "2018-01-17T09:46:20+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -265,6 +330,49 @@
                 "validator"
             ],
             "time": "2018-04-10T10:11:19+00:00"
+        },
+        {
+            "name": "emojione/emojione",
+            "version": "3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emojione/emojione.git",
+                "reference": "85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emojione/emojione/zipball/85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5",
+                "reference": "85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6 || ~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Emojione\\": "lib/php/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(CC-BY-4.0 and MIT)"
+            ],
+            "description": "EmojiOne is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG format provided for the emoji images.",
+            "homepage": "http://www.emojione.com",
+            "keywords": [
+                "emoji",
+                "emojione",
+                "emojis",
+                "emoticons",
+                "smileys",
+                "smilies",
+                "unicode"
+            ],
+            "time": "2018-07-11T21:35:32+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -2680,6 +2788,56 @@
                 "symfony"
             ],
             "time": "2018-06-16T22:05:52+00:00"
+        },
+        {
+            "name": "overtrue/laravel-emoji",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overtrue/laravel-emoji.git",
+                "reference": "cac09af2f96d2fafea2b8a606f0682722379f5a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/overtrue/laravel-emoji/zipball/cac09af2f96d2fafea2b8a606f0682722379f5a8",
+                "reference": "cac09af2f96d2fafea2b8a606f0682722379f5a8",
+                "shasum": ""
+            },
+            "require": {
+                "emojione/emojione": "^3.1",
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Overtrue\\LaravelEmoji\\EmojiServiceProvider"
+                    ],
+                    "aliases": {
+                        "Emoji": "Overtrue\\LaravelEmoji\\Emoji"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Overtrue\\LaravelEmoji\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "anzhengchao@gmail.com"
+                }
+            ],
+            "description": "An emojione bridge for Laravel 5.",
+            "time": "2018-05-26T04:29:33+00:00"
         },
         {
             "name": "phar-io/manifest",
