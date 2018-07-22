@@ -51,27 +51,32 @@
                     </li>
                 </ul>
             </section>
-            <footer class="container mx-auto px-4 lg:px-0 pb-6 text-center flex flex-column md:flex-row pt-12 md:pt-0">
-                <div class="flex-1">{{ date('Y') }}</div>
-                <div class="flex-1">
-                    <a target="_blank" href="https://www.github.com/fpena">
-                        <i class="text-white fab fa-github"></i>
-                    </a>
+            <footer class="container mx-auto px-4 lg:px-0 pb-6 text-center  pt-12 md:pt-0">
+                <div class="flex flex-column md:flex-row">
+                    <div class="flex-1">{{ date('Y') }}</div>
+                    <div class="flex-1">
+                        <a target="_blank" href="https://www.github.com/fpena">
+                            <i class="text-white fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="flex-1">
+                        <a target="_blank" href="https://www.linkedin.com/in/felipepenariveros/">
+                            <i class="text-white fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="flex-1">
+                        <a target="_blank" href="https://www.twitter.com/patrosmania/">
+                            <i class="text-white fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="flex-1">
+                        <a target="_blank" href="https://medium.com/@felipe_pena">
+                            <i class="text-white fab fa-medium"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="flex-1">
-                    <a target="_blank" href="https://www.linkedin.com/in/felipepenariveros/">
-                        <i class="text-white fab fa-linkedin"></i>
-                    </a>
-                </div>
-                <div class="flex-1">
-                    <a target="_blank" href="https://www.twitter.com/patrosmania/">
-                        <i class="text-white fab fa-twitter"></i>
-                    </a>
-                </div>
-                <div class="flex-1">
-                    <a target="_blank" href="https://medium.com/@felipe_pena">
-                        <i class="text-white fab fa-medium"></i>
-                    </a>
+                <div class="mt-6">
+                    <p class="text-sm">Feel free to shoot me an email at <a class="text-white" href="mailto:felipe@penya.cl">felipe@penya.cl</a></p>
                 </div>
             </footer>
         </div>
