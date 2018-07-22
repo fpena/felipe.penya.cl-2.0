@@ -4,8 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="iOS,Laravel,PHP,Vue,Vancouver,Architect,Software,Developer,apps,backend,9punto5,remote">
+        <meta name="description" content="Felipe Peña is a senior software developer with more than 10 years of experience in mobile and backend technologies. He’s been involved in multiple high scale and complex tech stack projects, in both startup and enterprise fields. His set of skills ranges from architecture definition, team management, product infrastructure layout and technical lead.">
+        <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/ico" sizes="32x32">
 
-        <title>Felipe Peña</title>
+        <title>Felipe Peña - Architect and software developer - iOS, Laravel (PHP) and Vue enthusiast.</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
