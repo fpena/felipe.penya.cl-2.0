@@ -11,13 +11,52 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     </head>
-    <body class="bg-black">
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title m-b-md">
-                    Felipe Peña
+    <body class="bg-black text-white" style="font-family: 'Lato', sans-serif;">
+        <div class="h-screen flex flex-wrap content-between">
+            <section class="container mx-auto px-4 lg:px-0 pt-6 text-center">
+                <h1 class="mb-12">
+                    <img src="{{ asset('img/felipe.png') }}" width="250" height="250" alt="Felipe Peña">
+                </h1>
+                <ul class="text-2xl md:text-3xl list-reset">
+                    <li class="mb-6">
+                        <div class="flex justify-center flex-col md:flex-row items-center">
+                            @emojione(':art:')
+                            <span class="ml-0 md:ml-6 mt-6 md:mt-0">I'm a software architect and developer</span>
+                        </div>
+                    </li>
+                    <li class="mb-6">
+                        <div class="flex justify-center flex-col md:flex-row items-center">
+                            @emojione(':rocket:')
+                            <span class="ml-0 md:ml-6 mt-6 md:mt-0">I organize a <a target="_blank" class="text-white" href="http://www.9punto5.cl">remote work conference</a></span>
+                        </div>
+                    </li>
+                    <li class="mb-6">
+                        <div class="flex justify-center flex-col md:flex-row items-center">
+                            @emojione(':iphone:')
+                            <span class="ml-0 md:ml-6 mt-6 md:mt-0">I'd like to have more than <a target="_blank" class="text-white" href="https://itunes.apple.com/ca/app/earwizard/id599466971?mt=8">one educational app</a> in the App Store</span>
+                        </div>
+                    </li>
+                    <li class="mb-6">
+                        <div class="flex justify-center flex-col md:flex-row items-center">
+                            @emojione(':book:')
+                            <span class="ml-0 md:ml-6 mt-6 md:mt-0">I like to <a target="_blank" class="text-white" href="https://www.goodreads.com/user/show/31677851-felipe-pe-a">read</a></span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <footer class="container mx-auto px-4 lg:px-0 pb-6 text-center flex flex-column">
+                <div class="flex-1">{{ date('Y') }}</div>
+                <div class="flex-1">
+                    <a target="_blank" href="https://www.github.com/fpena">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </div>
-            </div>
+                <div class="flex-1">
+                    <a target="_blank" href="https://www.linkedin.com/in/felipepenariveros/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
