@@ -11,9 +11,8 @@
         <title>Felipe Peña - Architect and software developer - iOS, Laravel (PHP) and Vue enthusiast.</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" defer>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" defer>
     </head>
     <body class="bg-black text-white" style="font-family: 'Lato', sans-serif; background: url('img/vienna.jpg')">
         <div class="h-screen flex flex-wrap content-between">
