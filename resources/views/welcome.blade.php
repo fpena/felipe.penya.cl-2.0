@@ -10,18 +10,23 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     </head>
-    <body class="bg-black text-white" style="font-family: 'Lato', sans-serif;">
+    <body class="bg-black text-white" style="font-family: 'Lato', sans-serif; background: url('img/vienna.jpg')">
         <div class="h-screen flex flex-wrap content-between">
             <section class="container mx-auto px-4 lg:px-0 pt-6 text-center">
-                <h1 class="mb-12">
-                    <img src="{{ asset('img/felipe.png') }}" width="250" height="250" alt="Felipe Peña">
+                <h1 class="mb-8">
+                    <img src="{{ asset('img/felipe.png') }}" width="200" height="200" alt="Felipe Peña">
                 </h1>
                 <ul class="text-2xl md:text-3xl list-reset">
                     <li class="mb-6">
                         <div class="flex justify-center flex-col md:flex-row items-center">
                             @emojione(':art:')
-                            <span class="ml-0 md:ml-6 mt-6 md:mt-0">I'm a software architect and developer</span>
+                            <div class="ml-0 md:ml-6 mt-6 md:mt-0">
+                                <p class="mb-4 md:mb-1">I'm a software architect and developer</p>
+                                <p class="text-base">(currently living in beautiful Vancouver, BC)</p>
+                            </div>
+
                         </div>
                     </li>
                     <li class="mb-6">
@@ -33,7 +38,7 @@
                     <li class="mb-6">
                         <div class="flex justify-center flex-col md:flex-row items-center">
                             @emojione(':iphone:')
-                            <span class="ml-0 md:ml-6 mt-6 md:mt-0">I'd like to have more than <a target="_blank" class="text-white" href="https://itunes.apple.com/ca/app/earwizard/id599466971?mt=8">one educational app</a> in the App Store</span>
+                            <span class="ml-0 md:ml-6 mt-6 md:mt-0">I have <a target="_blank" class="text-white" href="https://itunes.apple.com/ca/app/earwizard/id599466971?mt=8">one educational app</a> in the App Store</span>
                         </div>
                     </li>
                     <li class="mb-6">
@@ -44,16 +49,26 @@
                     </li>
                 </ul>
             </section>
-            <footer class="container mx-auto px-4 lg:px-0 pb-6 text-center flex flex-column">
+            <footer class="container mx-auto px-4 lg:px-0 pb-6 text-center flex flex-column md:flex-row pt-12 md:pt-0">
                 <div class="flex-1">{{ date('Y') }}</div>
                 <div class="flex-1">
                     <a target="_blank" href="https://www.github.com/fpena">
-                        <i class="fab fa-github"></i>
+                        <i class="text-white fab fa-github"></i>
                     </a>
                 </div>
                 <div class="flex-1">
                     <a target="_blank" href="https://www.linkedin.com/in/felipepenariveros/">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="text-white fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <a target="_blank" href="https://www.twitter.com/patrosmania/">
+                        <i class="text-white fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <a target="_blank" href="https://medium.com/@felipe_pena">
+                        <i class="text-white fab fa-medium"></i>
                     </a>
                 </div>
             </footer>
