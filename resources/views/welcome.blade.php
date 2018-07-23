@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-<section class="w-full px-4 lg:px-0 pt-6 text-center">
-    <h1 class="mb-8">
+<section class="w-full px-4 lg:px-0 pt-12 text-center">
+    <h1 class="mb-12">
         <img src="{{ asset('img/felipe.png') }}" width="200" height="200" alt="Felipe Peña">
     </h1>
     <ul class="text-2xl md:text-3xl list-reset">
