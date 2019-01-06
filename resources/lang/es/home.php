@@ -11,6 +11,8 @@ return [
 
     'title_4' => 'Me gusta <a target="_blank" class="text-white" href="https://www.goodreads.com/user/show/31677851-felipe-pe-a">leer</a>',
 
-    'shoot_email' => 'Puedes contactarme en cualquier momento a mi correo <a class="text-white" href="mailto:felipe@penya.cl">felipe@penya.cl</a>'
+    'shoot_email' => 'Puedes contactarme en cualquier momento a mi correo <a class="text-white" href="mailto:felipe@penya.cl">felipe@penya.cl</a>',
+
+    '404' => 'Todavía no existe esta sección. Empecemos nuevamente yendo al <a class="text-white" href="{{ url(\'\') }}">inicio</a>'
 
 ];

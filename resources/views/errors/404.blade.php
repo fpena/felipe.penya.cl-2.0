@@ -6,7 +6,9 @@
             <img src="{{ asset('img/sorry.png') }}" alt="Sorry" width="300">
         </div>
         <div class="mt-8">
-            <p>I still haven't built this page. Let's start again by going back <a class="text-white" href="{{ url('') }}">home</a></p>
+            <p>
+                {!! __('home.404') !!}
+            </p>
         </div>
 
     </section>

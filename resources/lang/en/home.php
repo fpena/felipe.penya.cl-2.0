@@ -11,5 +11,7 @@ return [
 
     'title_4' => 'I like to <a target="_blank" class="text-white" href="https://www.goodreads.com/user/show/31677851-felipe-pe-a">read</a>',
 
-    'shoot_email' => 'Feel free to shoot me an email at <a class="text-white" href="mailto:felipe@penya.cl">felipe@penya.cl</a>'
+    'shoot_email' => 'Feel free to shoot me an email at <a class="text-white" href="mailto:felipe@penya.cl">felipe@penya.cl</a>',
+
+    '404' => 'I still haven\'t built this page. Let\'s start again by going back <a class="text-white" href="{{ url(\'\') }}">home</a>'
 ];
