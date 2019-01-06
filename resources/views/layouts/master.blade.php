@@ -43,7 +43,17 @@
                     </a>
                 </div>
             </div>
-            <div class="mt-6">
+            <div class="mt-8 w-full text-center">
+                <div class="flex justify-center">
+                    <p class="w-16">
+                        <a class="text-white" href="#">English</a>
+                    </p>
+                    <p class="w-16">
+                        <a class="text-white" href="#">Español</a>
+                    </p>
+                </div>
+            </div>
+            <div class="mt-8">
                 <p class="text-sm">Feel free to shoot me an email at <a class="text-white" href="mailto:felipe@penya.cl">felipe@penya.cl</a></p>
             </div>
         </footer>
