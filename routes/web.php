@@ -13,4 +13,15 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->middleware('locale');
+
+Route::get('locale/{locale}', function ($locale) {
+    $validLocale = in_array($locale, ['en', 'es']);
+
+    if ($validLocale) {
+        Session::put('locale', $locale);
+    }
+
+    return back();
+
+})->middleware('locale')->name('locale');
