@@ -8,6 +8,8 @@
     <meta name="description" content="Felipe Peña is a senior software developer with more than 10 years of experience in mobile and backend technologies. He’s been involved in multiple high scale and complex tech stack projects, in both startup and enterprise fields. His set of skills ranges from architecture definition, team management, product infrastructure layout and technical lead.">
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/ico" sizes="32x32">
 
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+
     <title>Felipe Peña - Architect and software developer - iOS, Laravel (PHP) and Vue enthusiast.</title>
 
     <!-- Fonts -->
