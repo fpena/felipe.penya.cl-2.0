@@ -46,15 +46,27 @@
             <div class="mt-8 w-full text-center">
                 <div class="flex justify-center">
                     <p class="w-16">
-                        <a class="text-white" href="#">English</a>
+                        @if(app()->getLocale() == 'en')
+                            English
+                        @else
+                            <a class="text-white" href="{{ route('locale', 'en') }}">English</a>
+                        @endif
+
                     </p>
                     <p class="w-16">
-                        <a class="text-white" href="#">Español</a>
+                        @if(app()->getLocale() == 'es')
+                            Español
+                        @else
+                            <a class="text-white" href="{{ route('locale', 'es') }}">Español</a>
+                        @endif
+
                     </p>
                 </div>
             </div>
             <div class="mt-8">
-                <p class="text-sm">Feel free to shoot me an email at <a class="text-white" href="mailto:felipe@penya.cl">felipe@penya.cl</a></p>
+                <p class="text-sm">
+                    {!! __('home.shoot_email') !!}
+                </p>
             </div>
         </footer>
     </div>
