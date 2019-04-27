@@ -3,7 +3,7 @@
 return [
 
     'title_1' => 'Soy un arquitecto de software y desarrollador',
-    'subtitle_1' => '(viviendo actualmente en la ciudad maravillosa de Vancouver, BC)',
+    'subtitle_1' => '(viviendo actualmente en la maravillosa ciudad de Vancouver, BC)',
 
     'title_2' => 'Organizo una <a target="_blank" class="text-white" href="http://www.9punto5.cl">conferencia de trabajo remoto</a>',
 
